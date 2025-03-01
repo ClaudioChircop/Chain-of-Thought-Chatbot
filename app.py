@@ -4,7 +4,7 @@ from agents import question_rewriter, teacher_agent
 from tasks import create_rewrite_task, create_teacher_task
 
 # Set up API Key
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 # Initialize Crew
 chatbot_crew = Crew(
